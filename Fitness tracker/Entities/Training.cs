@@ -7,6 +7,6 @@
         public TimeOnly Duration { get; set;}
         public string Type { get; set;}
         public Users User { get; set; }
-
+        public int UserId { get; set; }
     }
 }
