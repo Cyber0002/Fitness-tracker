@@ -11,5 +11,6 @@
         public string Gender { get; set; }
         public int Height { get; set; }
         public int Weight { get; set; }
+        public List<Training> Trainings { get; set }
     }
 }
